@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local model/data artifacts and notebook-generated outputs
+data/
+datasets/
+models/
+outputs/
+results/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+*.html
+catboost_info/
